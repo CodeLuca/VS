@@ -5,11 +5,11 @@
 	<body>
 		Redirecting from Instagram to ViralSeasons.com...
 		<script>
-			(function() {
-				setTimeout(function() {
-				  window.location.replace("https://viral-seasons.myshopify.com");
-				}, 3000)
-			})();
+			redirectTime = "1500";
+			redirectURL = "https://viralseasons.com";
+			function timedRedirect() {
+				setTimeout("location.href = redirectURL;",redirectTime);
+			}
 		</script>
 	</body>
 </html>
