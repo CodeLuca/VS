@@ -3,13 +3,13 @@
 		<title>Redirecting...</title>
 	</head>
 	<body>
-		Redirecting from Instagram to ViralSeasons.com...
+		<button onClick="timedRedirect();" style="height: 100vh; width: 100vw;">Visit ViralSeasons.com</button>
 		<script>
-			redirectTime = "1500";
+			redirectTime = "150";
 			redirectURL = "https://viralseasons.com";
-			(function () {
+			function timedRedirect() {
 				setTimeout("location.href = redirectURL;",redirectTime);
-			})();
+			}
 		</script>
 	</body>
 </html>
